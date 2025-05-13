@@ -12,8 +12,8 @@ using Presentation.Data;
 namespace Presentation.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250510205017_Init")]
-    partial class Init
+    [Migration("20250513112337_newinitdb")]
+    partial class newinitdb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
